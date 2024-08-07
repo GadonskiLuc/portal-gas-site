@@ -9,10 +9,10 @@ export default function Header() {
         <p className="text-red font-extrabold text-[20px]">Portal🔥<span className="text-portal-green">Gás</span></p>
       </div>
       <div className="flex flex-row space-x-4 items-center justify-center font-bold text-lg">
-            <a href='#'>Home</a>
-            <a href='#'>Aonde Estamos?</a>
-            <a href='#'>Produtos</a>
-            <a href='#'>Contato</a>
+            <a href='#' className="transition ease-in-out hover:opacity-75 delay-80 hover:-translate-y-1">Home</a>
+            <a href='#' className="transition ease-in-out hover:opacity-75 delay-80 hover:-translate-y-1">Aonde Estamos?</a>
+            <a href='#' className="transition ease-in-out hover:opacity-75 delay-80 hover:-translate-y-1">Produtos</a>
+            <a href='#' className="transition ease-in-out hover:opacity-75 delay-80 hover:-translate-y-1">Contato</a>
       </div>
     </div>
   );

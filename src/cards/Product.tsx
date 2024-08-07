@@ -29,13 +29,11 @@ const Product: React.FC<ProductCardProps> = ({product}) => {
                     <img className="rounded-t-lg p-8" src="https://gasprati.loji.com.br/storage/uploads/fWE3Nhy8re3gl4l6W2AK5YxVlrJl0y5ZcHiInbd2.png" alt="gas" />
                 </a>
                 <div className="px-5 pb-5">
-                    <a href="#">
-                        <h3 className="text-gray-dark font-semibold text-xl tracking-tight">{product.name}</h3>
-                    </a>
+                    <h3 className="text-gray-dark font-semibold text-xl tracking-tight">{product.name}</h3>
                 </div>
                 <div className="flex items-center justify-between px-5 pb-5">
                     <span className="text-3xl font-bold text-gray-dark">{product.price}</span>
-                    <a href='#' className="text-white bg-portal-green hover:bg-green focus:ring-4 focus:ring-green font-medium rounded-lg text-sm px-5 py-2.5 text-center "> Pedir</a>
+                    <a href='#' className="text-white bg-portal-green transition ease-in-out hover:scale-110 delay-80 hover:-translate-y-1 font-medium rounded-lg text-sm px-5 py-2.5 text-center "> Pedir</a>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ import ProductList from './components/ProductList';
 
 function App() {
   return (
-    <div className='bg-gray-extra-light flex flex-col'>
+    <div className='bg-gray-extra-light w-screen flex flex-col'>
       <Header/>
       <Home/>
       <Local/>

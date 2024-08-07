@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{html,js,tsx}'],
+  plugins: [
+    require('tailwindcss-no-scrollbar')
+  ],
   theme: {
     colors: {
       'blue': '#1fb6ff',
@@ -33,4 +36,5 @@ module.exports = {
       }
     }
   },
+  
 }
