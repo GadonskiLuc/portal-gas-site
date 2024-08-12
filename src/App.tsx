@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Local from './components/Local';
 import ProductList from './components/ProductList';
+import GoToTopButton from './components/GoToTopButton'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Home/>
       <Local/>
       <ProductList/>
+      <GoToTopButton/>
     </div>
   );
 }
