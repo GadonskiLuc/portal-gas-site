@@ -38,7 +38,12 @@ export default function Local(){
                             </dl>
                             </div>
                         </div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14308.069819990811!2d-48.91261285927733!3d-26.29353415036414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea5d440581425%3A0x8f81835d40efb792!2sPortal%20Gas!5e0!3m2!1spt-BR!2sbr!4v1722882375665!5m2!1spt-BR!2sbr" width="600" height="450" className="border-0 rounded-md" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14308.069819990811!2d-48.91261285927733!3d-26.29353415036414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea5d440581425%3A0x8f81835d40efb792!2sPortal%20Gas!5e0!3m2!1spt-BR!2sbr!4v1722882375665!5m2!1spt-BR!2sbr" 
+                         title="Local"
+                         width="600" height="450" className="border-0 rounded-md" loading="lazy"
+                         referrerPolicy="no-referrer-when-downgrade">
+                         </iframe>
                         </div>
                     </div>
         </div>

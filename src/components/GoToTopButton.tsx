@@ -1,5 +1,5 @@
-import React, {useState} from 'react'; 
-import {FaAngleUp, FaArrowCircleUp} from 'react-icons/fa';
+import {useState} from 'react'; 
+import {FaAngleUp} from 'react-icons/fa';
 
 const GoToTop = () =>{
 
@@ -24,7 +24,7 @@ const GoToTop = () =>{
     window.addEventListener('scroll',toggleVisible);
 
     return(
-        <FaAngleUp className="cursor-pointer fixed bg-portal-yellow text-white z-50 text-[50px] bottom-[30px] right-[30px] rounded-md hover:-translate-y-1 hover:scale-110 delay-80 transition ease-in-out" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}/>
+        <FaAngleUp className="cursor-pointer fixed bg-portal-green text-white z-50 text-[50px] bottom-[30px] right-[30px] rounded-md hover:-translate-y-1 hover:scale-110 delay-80 transition ease-in-out" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}/>
     );
 }
 export default GoToTop; 

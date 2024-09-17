@@ -32,7 +32,7 @@ const ProductList: React.FC = () => {
     };
 
     return (
-        <div className='flex flex-col my-24'>
+        <div id="product" className='flex flex-col my-24'>
             <div className='px-20 pb-5'>
                 <h1 className='font-bold text-3xl pb-3'>Com o que trabalhamos?</h1>
                 <p className='text-gray'>Confira quais produtos estão disponiveis no momento</p>
