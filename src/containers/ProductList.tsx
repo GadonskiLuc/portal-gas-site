@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import ProductCard from '../cards/Product';
+import ProductCard from '../components/cards/Product';
 import productsData from '../data/products.json'; // Importe seu arquivo JSON
 
 // Defina a interface para o tipo de produto
